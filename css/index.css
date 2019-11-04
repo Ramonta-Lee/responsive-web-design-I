@@ -265,3 +265,40 @@ footer{
   margin-top: 5%;
  }
 }
+/* mobile design */
+@media(max-width: 500px){
+ nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+
+ }
+ nav a {
+  justify-content: center;
+  border:1px solid green;
+ }
+ .logo-img{
+  width: 40%;
+  border: 1px solid black;
+ }
+
+ .top-content {
+  flex-direction: column;
+  /* border: 1px solid orange; */
+ }
+ .top1, .top2 {
+  width: 100%;
+  padding: 2%;
+  /* border: 1px solid red; */
+ }
+
+ .bottom-content {
+  flex-direction: column;
+ }
+.bottom{
+width: 90%;
+
+}
+
+}
