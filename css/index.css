@@ -64,7 +64,8 @@ h1, h2, h3, h4, h5 {
 nav{
 	display:flex;
 	justify-content: space-between;
-	padding-top: 1%;
+ padding-top: 1%;
+ width: 75%;
 	/* border: 2px solid black */
 }
 
@@ -72,7 +73,15 @@ nav a {
 	display: flex;
 	align-items: center;
 	color: gray;
-	text-decoration: none;
+ text-decoration: none;
+}
+.logo-img {
+ position: relative;
+ text-align: right;
+	color: gray;
+ text-decoration: none;
+ width:100%;
+ margin-top: -3%;
 }
 /* Header Slogan and Button */
 .header{
@@ -227,5 +236,32 @@ footer{
 	text-align: center;
 }
 
-
-
+/* tablet design */
+@media (max-width: 800px) {
+ /* nav a{
+  border: 1px solid red;
+  
+ } */
+ nav {
+ margin: 0 auto;
+ width: 90%;
+ padding-top: 10%;
+ /* border: 1px solid blue; */
+ }
+  .logo-img {
+  position: relative;
+  margin: 0 auto;
+  margin-top: -10%;
+  width: 20%;
+  /* border: 1px solid red; */
+ }
+ .image {
+  display: none;
+ }
+ .middle-img {
+  width: 100%;
+ }
+ .bottom-line {
+  margin-top: 5%;
+ }
+}
